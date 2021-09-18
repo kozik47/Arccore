@@ -97,6 +97,7 @@ Infinite_Loop:
 	.extern SVC_Handler
 	.extern PendSV_Handler
 
+g_pfnVectors:
 	.word	_estack
 	.word	Reset_Handler
 	.word	NMI_Handler
